@@ -1,0 +1,19 @@
+
+
+header {
+    padding: 30px;
+    background-color: #233a7e;
+}
+ header .links {
+     text-align: center;
+ }
+ .links a {
+     padding: 30px;
+     color: white;
+     text-decoration: none;
+     font-size: 18px;
+     line-height: 28px;
+ }
+ .links a:hover{
+     color: #148a3b;
+ }

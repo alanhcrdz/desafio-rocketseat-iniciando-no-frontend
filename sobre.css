@@ -1,0 +1,63 @@
+
+
+#sobre {
+    text-align: center;
+    margin: 32px;
+}
+
+#sobre img {
+    border-radius: 50%;
+}
+
+#sobre h1 {
+    margin: 32px;
+    font-size: 32px;
+    color: #11c82a;
+}
+#sobre h2{
+    margin-bottom: 32px;
+    opacity: 0.8;
+    color: white;
+}
+#sobre p{
+    max-width: 500px;
+    margin: 32px auto;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+#sobre ul {
+    list-style-position: inside;
+    list-style-type: none;
+    display: block;
+    margin:auto;
+    width: 200px;
+    line-height: 32px;
+    color: white;
+
+}
+#sobre ul li {
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+
+.links {
+    text-align: center;
+}
+
+.links a {
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+.links a:hover {
+    color: #11c82a;
+    transition: color 0.4s;
+}
+

@@ -1,0 +1,154 @@
+
+
+
+.wrapper {
+    color: white;
+    text-align: center;
+    margin-top: 32px;
+}
+.wrapper a {
+    color: white;
+    text-align: center;
+    margin-top: 32px;
+    font-size: 32px;
+    text-decoration: none;
+}
+.wrapper a:hover {
+    color: #148a3b;
+    transition: color 0.4s;
+}
+
+
+
+.cards {
+    padding: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+
+}
+.content h1 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.card{
+    background-color: #3f384d;
+    height: 500px;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+
+}
+.image-container {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 16px;
+}
+.image-container img {
+    display: block;
+    margin: 0 auto;
+}
+.card-content,
+.card-info {
+    padding: 16px;
+}
+.card p {
+    margin: 20px auto;
+    text-align: center;
+    font-size: 18px;
+   color: rgba(212, 212, 212, 0.822);
+   width: 100%;
+   max-width: 400px;
+}
+
+.card .info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.info .free {
+    color: #2fb123;
+    width: 150px;
+}
+.info .paid {
+    color: #ffd207;
+    width: 150px;
+}
+
+.modal-overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+.modal {
+    width: 90%;
+    height: 90%;
+    margin: 5vh auto;
+    background-color: white;
+    position: relative;
+
+}
+.maximize-modal {
+    position: absolute;
+    right: 32px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.close-modal {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    cursor: pointer;
+    color: re;
+}
+
+.modal-content {
+    width: 100%;
+    height: 100%;
+}
+
+iframe  {
+    width: 100%;
+    height: 90%;
+    top: 5%;
+    position: absolute;
+
+}
+
+
+/* ==== ACTIVE ==== */
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+    background-color: rgba(27, 27, 27, 0.822);
+
+}
+
+
+.modal.active {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        background-color: white;
+        position: relative;
+    
+    }
+    
+    
+    
+    
+
+
+
+
